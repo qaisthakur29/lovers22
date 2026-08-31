@@ -1,0 +1,7 @@
+{
+  "name": "FIRST WISH",
+  "description": "A personalized, peaceful birthday surprise experience scheduled to unlock at midnight.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

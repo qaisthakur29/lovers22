@@ -1,0 +1,11 @@
+/// <reference types="vite/client" />
+
+interface ImportMetaEnv {
+  readonly VITE_APP_URL?: string;
+  readonly NEXT_PUBLIC_APP_URL?: string;
+  readonly [key: string]: string | undefined;
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv;
+}
